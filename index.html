@@ -33,7 +33,7 @@
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <h6><i class="fas fa-arrow-circle-down"></i></h6>
+                                    <h6>MENU</h6>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="./page/show.html"><h5>Shows</h5></a>
@@ -59,8 +59,13 @@
             <div class="container text-center text-light mt-5 p-5">
                 <h1 class="display-1">The X Machina</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis mollis nulla risus urna velit euismod non. Eget orci, a massa porta. Morbi lectus ut sit nisi sit gravida suspendisse. In ac nec.</p>
-                <button type="button" class="btn btn-outline-light btn-lg">Tour Dates</button>
-                <button type="button" class="btn btn-outline-light btn-lg">Listen to our music</button>
+                <form action="./page/show.html" class="d-inline">
+                    <button type="submit" class="btn btn-outline-light btn-lg">Tour Dates</button>
+                </form>
+                <form action="./page/album.html" class="d-inline">
+                    <button type="submit" class="btn btn-outline-light btn-lg">Listen to our music</button>
+                </form>
+                
             </div>
         </div>
         <div class="container-fluid hhero">
@@ -75,7 +80,10 @@
                     <div class="col-md-6">
                         <h2 class="display-2">Listen our latest album</h2>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit neque ipsum, dui nibh ut risus et tristique non ultrices. Cras massa eget mauris pharetra diam quis leo, sit. Non non accumsan nunc aliquam cursus faucibus</p>
-                        <button type="button" class="btn btn-light btn-lg">Browse albums</button>
+                        <form action="./page/album.html">
+                            <button type="submit" class="btn btn-light btn-lg">Browse albums</button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
@@ -91,7 +99,10 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit neque, ipsum, dui nibh ut risus et tristique non.</p>
                     </div>
                     <div class="col-md-2">
-                        <button type="button" class="btn btn-light btn-lg my-5">Browse all dates</button>
+                        <form action="./page/show.html">
+                            <button type="submit" class="btn btn-light btn-lg my-5">Browse all dates</button>
+                        </form>
+                        
                     </div>
                 </div>
                 <div class="row">
