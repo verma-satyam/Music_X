@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+
+#landing {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1501612780327-45045538702b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-text {
+    color: white;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.hhero {
+    position: relative;
+    margin: 1rem auto 0 auto;
+    padding-top: 8rem;
+}
+
+.containerbackground {
+    margin-top: -2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8rem;
+    font-weight: 900;
+    z-index: -1;
+    color: #37373d;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
+.card img {
+    height: 250px;
+}
+
+@media (min-width: 992px) {
+    .hhero {
+        position: relative;
+        margin: 15rem auto 5rem auto;
+        padding-top: 8rem;
+    }
+    .containerbackground {
+        margin-top: -13rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 20rem;
+        font-weight: 900;
+        z-index: -1;
+        color: #37373d;
+    }
+}
